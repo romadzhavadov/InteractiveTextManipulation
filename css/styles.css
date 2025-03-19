@@ -1,0 +1,87 @@
+ * {
+  box-sizing: border-box;
+ }
+ 
+ #output {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 5px;
+   border: 1px solid #ddd;
+   min-height: 50px;
+   padding: 10px;
+   cursor: pointer;
+ }
+
+ .char {
+   display: inline-block;
+   padding: 5px;
+   font-size: 20px;
+   cursor: pointer;
+   user-select: none;
+ }
+
+ .selected {
+   background-color: yellow;
+ }
+
+
+
+ body {
+   font-family: Arial, sans-serif;
+   background-color: #f4f4f4;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+ }
+
+ .wrapper {
+   background: white;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   text-align: center;
+   width: 400px;
+ }
+
+ h1 {
+   font-size: 20px;
+   color: #333;
+ }
+
+ .text-input {
+   width: 100%;
+   padding: 10px;
+   margin: 10px 0;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   font-size: 16px;
+ }
+
+ .submit-btn {
+   background-color: #007bff;
+   color: white;
+   padding: 10px 15px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 16px;
+ }
+
+ .submit-btn:hover {
+   background-color: #0056b3;
+ }
+
+ .output-box {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 5px;
+   border: 1px solid #ddd;
+   min-height: 50px;
+   padding: 10px;
+   background: #fff;
+   margin-top: 10px;
+   cursor: pointer;
+ }
+
