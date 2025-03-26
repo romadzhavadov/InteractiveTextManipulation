@@ -85,3 +85,7 @@
    cursor: pointer;
  }
 
+.selected {
+  background-color: yellow;
+  /* Виділення кольором */
+}
